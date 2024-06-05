@@ -10,7 +10,7 @@
         <a href="{{ route('home') }}" wire:navigate class="text-nowrap logo-img text-center d-block py-3 w-100">
             <img src="{{ asset('images/logos/order_ride.svg') }}" width="180" alt="">
         </a>
-        <p class="text-center">Halo, selamat datang di Remob Jakarta.</p>
+        <p class="text-center">Halo, selamat datang di Website Rental Mobil ISA.</p>
         <form wire:submit="login" method="POST">
             @csrf
             <div class="form-floating mb-3">
