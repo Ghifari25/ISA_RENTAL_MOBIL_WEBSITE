@@ -13,7 +13,7 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <h3 class="text-center">Pilihan Mobil</h3>
-                <button type="button" class="btn btn-orange" data-bs-toggle="modal"
+                <button type="button" class="btn btn-info" data-bs-toggle="modal"
                     data-bs-target="#modal-filter">Filter</button>
             </div>
             <div class="mt-5">
@@ -25,7 +25,7 @@
 
                                     {{-- card background image --}}
                                     <div class="box-card-image rounded p-2"
-                                        style="background-image: url('{{ asset('images/backgrounds/card-bg.png') }}');">
+                                        style="background-color: #0080FF;">
 
                                         {{-- card-content-header --}}
                                         <div class="d-flex justify-content-between align-items-center">
@@ -141,7 +141,7 @@
 
                                         {{-- button booking --}}
                                         <div class="mt-3">
-                                            <button type="button" class="btn btn-orange btn-block w-100"
+                                            <button type="button" class="btn btn-success btn-block w-100" 
                                                 data-bs-toggle="modal" data-bs-target="#modal-booking"
                                                 wire:click="booking({{ $value->id }})">
                                                 BOOKING

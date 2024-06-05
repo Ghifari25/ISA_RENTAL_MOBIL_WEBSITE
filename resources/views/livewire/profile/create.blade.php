@@ -54,7 +54,7 @@
             </div>
             <div class="d-flex justify-content-between align-items-center custom-button-group-create-profile">
                 <button type="button" wire:click="logout"
-                    class="btn btn-danger w-100 py-8 fs-4 mb-4 me-2 ms-2 rounded-2">
+                    class="btn btn-outline-dark w-100 py-8 fs-4 mb-4 me-2 ms-2 rounded-2">
                     BATAL
                     <div wire:loading wire:target="logout" class="ms-3">
                         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>

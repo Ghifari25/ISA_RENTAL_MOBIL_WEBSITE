@@ -98,7 +98,7 @@
                                     </td>
                                     <td class="border-bottom-0">
                                         <div class="d-flex justif-content-center gap-2">
-                                            <button type="button" class="btn btn-sm btn-warning" data-bs-toggle="modal"
+                                            <button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal"
                                                 data-bs-target="#modal-update" wire:click="edit({{ $value->id }})">
                                                 <i class="ti ti-edit"></i>
                                             </button>

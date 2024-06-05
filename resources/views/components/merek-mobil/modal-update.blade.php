@@ -23,7 +23,7 @@
                         @enderror
                     </div>
                     <div class="d-flex justify-content-end">
-                        <button type="submit" class="btn btn-warning">
+                        <button type="submit" class="btn btn-success">
                             UPDATE DATA
                             <div wire:loading wire:target="update" class="ms-3">
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>

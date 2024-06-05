@@ -40,8 +40,7 @@
             <div class="row">
                 <div class="col-md-4">
                     {{-- box-image --}}
-                    <div class="box-card-image rounded p-2"
-                        style="background-image: url('{{ asset('images/backgrounds/card-bg.png') }}');">
+                    <div class="box-card-image rounded p-2" style="background-color: #0080FF;">
 
                         {{-- card-content-header --}}
                         <div class="d-flex justify-content-between align-items-center">
@@ -171,7 +170,7 @@
                                     wire:click="setCancle({{ $data->mobil->id }},{{ $data->supir_id }})">
                                     BATALKAN PESANAN
                                 </button>
-                                <button type="button" wire:click="edit" class="btn btn-secondary ms-3"
+                                <button type="button" wire:click="edit" class="btn btn-success ms-3"
                                     data-bs-toggle="modal" data-bs-target="#modal-update">
                                     UPDATE
                                 </button>
