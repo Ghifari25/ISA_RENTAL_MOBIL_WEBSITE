@@ -1,7 +1,7 @@
 {{-- list car --}}
 <section class="pt-5 bg-light" id="pelayanan-section">
     <div class="container">
-        <h3 class="text-center">Remob Jakarta</h3>
+        <h3 class="text-center">ISA RENTAL SURABAYA</h3>
         <div class="mt-5">
             <div class="row">
                 <div class="col-md-4">

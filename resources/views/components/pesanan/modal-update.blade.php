@@ -154,7 +154,7 @@
                     @endif
 
                     <div class="d-flex justify-content-end">
-                        <button type="submit" class="btn btn-warning">
+                        <button type="submit" class="btn btn-success">
                             UPDATE PESANAN
                             <div wire:loading wire:target="update" class="ms-3">
                                 <span class="spinner-border spinner-border-sm" role="status"

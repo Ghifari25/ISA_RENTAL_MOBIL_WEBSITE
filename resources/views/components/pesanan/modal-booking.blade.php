@@ -154,7 +154,7 @@
                     @endif
 
                     <div class="d-flex justify-content-end">
-                        <button type="submit" class="btn btn-orange">
+                        <button type="submit" class="btn btn-primary">
                             BUAT PESANAN
                             <div wire:loading wire:target="save" class="ms-3">
                                 <span class="spinner-border spinner-border-sm" role="status"

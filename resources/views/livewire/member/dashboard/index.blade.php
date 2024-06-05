@@ -44,7 +44,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body bg-primary rounded">
+                    <div class="card-body rounded" style="background-color: #0080FF;">
                         <h5 class="card-title text-white mb-9 fw-semibold">
                             Pesanan Mobil
                         </h5>
@@ -64,7 +64,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body bg-primary rounded">
+                    <div class="card-body rounded" style="background-color: #0080FF;">
                         <h5 class="card-title text-white mb-9 fw-semibold">
                             Transaksi Pesanan
                         </h5>
@@ -85,7 +85,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body bg-primary rounded">
+                    <div class="card-body rounded" style="background-color: #0080FF;">
                         <h5 class="card-title text-white mb-9 fw-semibold">
                             Total Pengembalian Mobil
                         </h5>
@@ -105,7 +105,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body bg-primary rounded">
+                    <div class="card-body rounded" style="background-color: #0080FF;">
                         <h5 class="card-title text-white mb-9 fw-semibold">
                             Pembayaran Pending
                         </h5>
@@ -125,7 +125,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body bg-primary rounded">
+                    <div class="card-body rounded" style="background-color: #0080FF;">
                         <h5 class="card-title text-white mb-9 fw-semibold">
                             Pembayaran Paid
                         </h5>
@@ -145,7 +145,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body bg-primary rounded">
+                    <div class="card-body rounded" style="background-color: #0080FF;">
                         <h5 class="card-title text-white mb-9 fw-semibold">
                             Total Denda
                         </h5>

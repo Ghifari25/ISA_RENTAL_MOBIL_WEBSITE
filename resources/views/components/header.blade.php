@@ -1,6 +1,6 @@
 <!--  Header Start -->
 <header class="app-header">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0a2878;">
         <ul class="navbar-nav">
             <li class="nav-item d-block d-xl-none">
                 <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
@@ -8,10 +8,10 @@
                 </a>
             </li>
         </ul>
-        <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+        <div class="navbar-collapse justify-content-end px-5" id="navbarNav">
             <div class="me-2">
-                <h6 class="fs-3 fw-4 m-0">{{ auth()->user()->profile->nama }}</h6>
-                <p class="text-muted m-0 fs-2">{{ auth()->user()->email }}</p>
+                <h6 class="fs-3 fw-4 m-0 text-light">{{ auth()->user()->profile->nama }}</h6>
+                <p class="text-light m-0 fs-2">{{ auth()->user()->email }}</p>
             </div>
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
                 <li class="nav-item dropdown">

@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         {{-- box-image --}}
-                        <div class="box-card-image rounded p-2" style="background-image: url('{{ asset('images/backgrounds/card-bg.png') }}');">
+                        <div class="box-card-image rounded p-2" style="background-color: #0080FF;">
                             {{-- card-content-header --}}
                             <div class="d-flex justify-content-between align-items-center">
                                 {{-- car name and year --}}
@@ -130,12 +130,12 @@
                             <a href="{{ route('member-pesanan') }}" wire:navigate class="btn btn-dark">KEMBALI</a>
                             @if ($data->status_bayar == 'pending')
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="{{ route('redirect-to-payment', ['order_id' => $data->id, 'amount' => $data->total_bayar]) }}" class="btn btn-orange">
+                                    <a href="{{ route('redirect-to-payment', ['order_id' => $data->id, 'amount' => $data->total_bayar]) }}" class="btn btn-success">
                                         BAYAR
                                     </a>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="{{ route('export-invoice', $data->id) }}" target="_blank" class="btn btn-danger">
+                                    <a href="{{ route('export-invoice', $data->id) }}" target="_blank" class="btn btn-success">
                                         INVOICE
                                     </a>
                                 </div>
