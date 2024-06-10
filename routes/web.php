@@ -25,6 +25,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
 
+Route::get('orders/export', [OrderController::class, 'export'])->name('orders.export');
 
 
 Route::middleware('guest')->group(function () {

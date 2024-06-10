@@ -47,7 +47,7 @@
 
                                         {{-- image car --}}
                                         <img src="{{ asset('images/cars/' . $value->foto) }}" class="img-fluid"
-                                            alt="...">
+                                            style="height: 260px; width: 345px" alt="...">
                                         {{-- end image car --}}
 
                                         {{-- spesifikasi --}}
