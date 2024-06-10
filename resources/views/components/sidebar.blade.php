@@ -4,7 +4,7 @@
     <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
             <div class="text-nowrap logo-img">
-                <img src="{{ asset('images/logos/order_ride.svg') }}" width="120px" alt="" />
+                <img src="{{ asset('images/logo/logo-rental.png') }}" width="157px" alt="" />
             </div>
             <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                 <i class="ti ti-x fs-8 text-light"></i>

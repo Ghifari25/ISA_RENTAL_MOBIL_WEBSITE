@@ -171,7 +171,7 @@
                     {{-- title and button modal add --}}
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h5 class="card-title fw-semibold">HISTORI DATA PESANAN MOBIL</h5>
-
+                        <a href="{{ route('orders.export') }}" class="btn btn-primary">Export to Excel</a>
                     </div>
                     {{-- end title and button modal add --}}
 
