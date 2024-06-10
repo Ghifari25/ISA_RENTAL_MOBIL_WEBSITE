@@ -40,7 +40,7 @@
                                     {{-- end card content-header --}}
 
                                     {{-- image car --}}
-                                    <img src="{{ asset('images/cars/' . $value->foto) }}" class="img-fluid"
+                                    <img src="{{ asset('images/cars/' . $value->foto) }}" class="img-fluid" style="height: 260px; width: 400px"
                                         alt="...">
                                     {{-- end image car --}}
 

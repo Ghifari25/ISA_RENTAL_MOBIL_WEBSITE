@@ -34,7 +34,7 @@
                                         <option value="{{ $value->id }}">{{ $value->jenis_mobil }}</option>
                                     @endforeach
                                 </select>
-                                <label for="jenis">Jenis Mobil</label>
+                                <label for="jenis">Pilih Jenis Mobil</label>
                                 @error('jenis')
                                     <small class="invalid-feedback">{{ $message }}</small>
                                 @enderror
@@ -49,7 +49,7 @@
                                         <option value="{{ $value->id }}">{{ $value->merek_mobil }}</option>
                                     @endforeach
                                 </select>
-                                <label for="merek">Jenis Mobil</label>
+                                <label for="merek">Pilih Merek Mobil</label>
                                 @error('merek')
                                     <small class="invalid-feedback">{{ $message }}</small>
                                 @enderror
@@ -157,7 +157,7 @@
                                     <option value="YA">YA</option>
                                     <option value="TIDAK">TIDAK</option>
                                 </select>
-                                <label for="ac">Jenis Mobil</label>
+                                <label for="ac">Pilih AC</label>
                                 @error('ac')
                                     <small class="invalid-feedback">{{ $message }}</small>
                                 @enderror
